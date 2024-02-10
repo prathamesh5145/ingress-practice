@@ -12,10 +12,10 @@ spec:
         app: mobile
     spec:
       containers:
-        name: mobile-containers
-        image: prathamesh5145/mobile:latest
-        ports:
-          - contianerPort: 80
+        - name: mobile-containers
+          image: prathamesh5145/mobile:latest
+          ports:
+            - contianerPort: 80
   replicas: 3
   selector:
     matchLabels:
