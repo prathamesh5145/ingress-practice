@@ -3,7 +3,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata: 
   name: laptop-deploy
-  labels: laptop
+  labels: 
+    app: laptop
 spec:
   template:
     metadata: 
