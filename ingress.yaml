@@ -5,14 +5,14 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: 
+  ingressClassName: nginx
   defaultBackend: 
     service:
       name: mobile-svc
       port:
         number: 80
   rules:
-    - host: ""
+    - host: "a7e574afc0f7f4c9ba6fc42535571dd8-ad5aae9a308643c5.elb.ap-south-1.amazonaws.com"
       http:
         paths:
         - path: /mobile
