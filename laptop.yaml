@@ -11,11 +11,11 @@ spec:
       labels:
         app: laptop
     spec:
-     containers:
-      name: laptop-containers
-      image: prathamesh5145/laptop:latest
-      ports:
-        - contianerPort: 80
+      containers:
+        name: laptop-containers
+        image: prathamesh5145/laptop:latest
+        ports:
+          - contianerPort: 80
   replicas: 3
   selector:
     matchLabels:
