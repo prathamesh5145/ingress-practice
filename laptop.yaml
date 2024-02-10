@@ -12,7 +12,7 @@ spec:
     spec:
      containers:
       name: laptop-containers
-      image:
+      image: prathamesh5145/laptop:latest
       ports:
         - contianerPort: 80
   replicas: 3

@@ -12,7 +12,7 @@ spec:
     spec:
      containers:
       name: mobile-containers
-      image:
+      image: prathamesh5145/mobile:latest
       ports:
         - contianerPort: 80
   replicas: 3
