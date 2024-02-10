@@ -23,7 +23,7 @@ spec:
               port:
                 number: 80
         - path: /laptop
-          pathType: Prifix
+          pathType: Prefix
           backend:
             service:
               name: laptop-svc
